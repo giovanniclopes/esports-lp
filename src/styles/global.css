@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-mainBG bg-no-repeat bg-cover text-gray-50;
+}
+
+.duo-text {
+  background: linear-gradient(
+    89.86deg,
+    #9572fc 10.08%,
+    #43e7ad 50.94%,
+    #e1d55d 80.57%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
